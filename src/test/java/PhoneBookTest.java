@@ -86,6 +86,10 @@ public class PhoneBookTest {
        phoneBook.add("two", "diff number");
        phoneBook.add("three", "another number");
 
-       Assert.assertEquals(testNames, phoneBook.getAllContactNames());
+       List<String> actual = new ArrayList<String>(phoneBook.getAllContactNames());
+
+       Collections.sort(actual, new NameComparator());
+
+       Assert.assertEquals(testNames, actual);
    }
 }

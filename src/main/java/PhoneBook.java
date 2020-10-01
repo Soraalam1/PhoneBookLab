@@ -43,9 +43,6 @@ public class PhoneBook {
         ArrayList<String> names = new ArrayList<String>();
         names.addAll(phonebook.keySet());
 
-        //I put them in alphabetical order because the hashmap returns the names out of order
-        Collections.sort(names,new NameComparator());
-
         return names;
     }
 }
