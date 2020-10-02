@@ -14,7 +14,7 @@ public class PhoneBookTest {
 
         HashMap<String, List<String >> test = new HashMap<String, List<String>>();
         ArrayList<String> number = new ArrayList<String>();
-        number.add("302-353-2176");
+        number.add("302");
         test.put("Dean", number);
 
         PhoneBook phoneBook = new PhoneBook(new HashMap<String, List<String>>());
