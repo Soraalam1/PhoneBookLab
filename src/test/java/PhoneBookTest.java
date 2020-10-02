@@ -10,7 +10,7 @@ public class PhoneBookTest {
     @Test
     public void addTest(){
         String name = "Dean";
-        String phoneNumber = "302-353-2176";
+        String phoneNumber = "302";
 
         HashMap<String, List<String >> test = new HashMap<String, List<String>>();
         ArrayList<String> number = new ArrayList<String>();
