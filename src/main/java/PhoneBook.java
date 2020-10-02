@@ -1,8 +1,7 @@
 import java.util.*;
 
 public class PhoneBook {
-   HashMap<String, List<String>> phonebook;
-    private ArrayList Collectons;
+  private HashMap<String, List<String>> phonebook;
 
     public PhoneBook(HashMap<String, List<String>> phonebook) {
         this.phonebook = phonebook;
